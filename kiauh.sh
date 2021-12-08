@@ -48,8 +48,8 @@ BACKUP_DIR=${HOME}/kiauh-backups
 
 ### set github repos
 KLIPPER_REPO=https://github.com/maz0r/klipper.git
-ARKSINE_REPO=https://github.com/Arksine/klipper.git
-DMBUTYUGIN_REPO=https://github.com/dmbutyugin/klipper.git
+ARKSINE_REPO=https://github.com/maz0r/klipper.git
+DMBUTYUGIN_REPO=https://github.com/maz0r/klipper.git
 DWC2FK_REPO=https://github.com/Stephan3/dwc2-for-klipper-socket.git
 KLIPPERSCREEN_REPO=https://github.com/jordanruthe/KlipperScreen.git
 NLEF_REPO=https://github.com/nlef/moonraker-telegram-bot.git
