@@ -75,7 +75,7 @@ install_klipper_packages(){
 create_klipper_virtualenv(){
   status_msg "Installing python virtual environment..."
   # Create virtualenv if it doesn't already exist
-  [ ! -d ${KLIPPY_ENV} ] && virtualenv -p python2 ${KLIPPY_ENV}
+  [ ! -d ${KLIPPY_ENV} ] && virtualenv -p python3 ${KLIPPY_ENV}
   # Install/update dependencies
   ${KLIPPY_ENV}/bin/pip install -r ${KLIPPER_DIR}/scripts/klippy-requirements.txt
 }
